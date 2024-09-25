@@ -1,0 +1,119 @@
+.
+  
+  .firstrow {
+    margin-top: 25px;
+    text-align: center;
+  }
+  
+  .firstrow h1 {
+    color: #ffffff; /* Main header color */
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: #ccc; /* Light shadow for better visibility */
+    font-weight: 600;
+  }
+  
+  .description {
+    color: #ffffff; /* White color for better contrast */
+    font-size: 1.2em; /* Adjust font size as needed */
+    margin-top: 10px; /* Space above paragraph */
+    max-width: 600px; /* Limit the width for line wrapping */
+    margin-left: auto; /* Center the paragraph */
+    margin-right: auto; /* Center the paragraph */
+    line-height: 1.5; /* Increase line height for better readability */
+  }
+  
+  .firstrow button {
+    margin-top: 20px; /* Add some space above the button */
+  }
+  
+  .imagecontainer {
+    margin-top: 10px;
+  }
+  
+  /* landing page second row card css starting from here */
+  
+  .card-titles {
+    color: #262626;
+    font-size: 1.5em;
+    line-height: normal;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+  }
+  
+  .small-desc {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #452c2c;
+  }
+  
+  .go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background: linear-gradient(135deg, #6293c8, #384c6c);
+    border-radius: 0 4px 0 32px;
+  }
+  
+  .go-arrow {
+    margin-top: -4px;
+    margin-right: -4px;
+    color: white;
+    font-family: courier, sans;
+  }
+  
+  .cards {
+    display: block;
+    position: relative;
+    background-color: #f2f8f9; /* Background color for cards */
+    border-radius: 30px;
+    padding: 2em 1.2em;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px #ccc;
+  }
+  
+  .cards:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: linear-gradient(135deg, #364a60, #384c6c);
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.35s ease-out;
+  }
+  
+  .cards:hover:before {
+    transform: scale(28);
+  }
+  
+  .cards:hover .small-desc {
+    transition: all 0.5s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .cards:hover .card-titles {
+    transition: all 0.5s ease-out;
+    color: #ffffff;
+  }
+  
+  /* landing page second row card css ending here */
+  .secondrow {
+    margin: 100px 30px;
+  }
+  

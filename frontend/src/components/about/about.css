@@ -1,0 +1,97 @@
+/* about.css */
+
+.about-us {
+    background-color: #f8f9fa; /* Light background for the page */
+    color: #343a40; /* Dark text color */
+    font-family: 'Arial', sans-serif; /* Font style */
+     /* Padding around the content */
+     /* Full height */
+  }
+  
+  .about-us-header {
+    text-align: center; /* Center the header */ /* Space below the header */
+  }
+  
+  .about-us-header h1 {
+    font-size: 2.5rem; /* Header font size */
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  .portrait-container {
+    display: flex; /* Flexbox for layout */
+    /* Center the portrait */
+     /* Space below portrait */
+  }
+  
+  .portrait-image {
+    width: 100%; 
+    height:60vh;
+    
+  }
+  
+  .about-us-profile {
+    display: flex; /* Flexbox layout for profile */
+    align-items: center; /* Align items vertically center */
+    justify-content: center; /* Center the profile */
+    flex-wrap: wrap; /* Wrap elements if needed */
+  }
+  
+  .about-us-image {
+    flex: 1; /* Allow the image to take space */
+    max-width: 300px; /* Limit max width */
+    margin-right: 20px; /* Space to the right of the image */
+  }
+  
+  .profile-image {
+    width: 100%; /* Full width */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .about-us-details {
+    flex: 2; /* Allow details to take more space */
+  }
+  
+  .about-us-details blockquote {
+    font-size: 1.2rem; /* Size of the quote */
+    font-style: italic; /* Italic style */
+    margin: 10px 0; /* Margin above and below */
+    padding-left: 20px; /* Indent for quote */
+    border-left: 2px solid #007bff; /* Left border */
+  }
+  
+  .about-description {
+    margin-top: 20px; /* Space above the description */
+  }
+  
+  .about-description h2 {
+    font-size: 1.5rem; /* Section header size */
+    color: #007bff; /* Section header color */
+    margin-bottom: 10px; /* Space below section header */
+  }
+  
+  .about-description p {
+    line-height: 1.6; /* Improved readability */
+    margin-bottom: 15px; /* Space below paragraphs */
+  }
+  
+  .email-link {
+    color: #007bff; /* Email link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .email-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .about-us-profile {
+      flex-direction: column; /* Stack items vertically on small screens */
+      align-items: center; /* Center align items */
+    }
+  
+    .about-us-image {
+      margin-right: 0; /* Remove margin on small screens */
+      margin-bottom: 20px; /* Space below image */
+    }
+  }
+  

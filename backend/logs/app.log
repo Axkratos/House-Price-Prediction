@@ -1,0 +1,66 @@
+2024-09-24 22:44:24,804 INFO: Prediction: 10557139.000000 [in C:\Users\anupa\OneDrive\Desktop\house-pred2 - Copy\Price-prediction\backend\app.py:86]
+2024-09-25 23:38:15,297 INFO: App startup [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:31]
+2024-09-26 00:19:06,665 INFO: Received features: [4, 4, 4, 2075, 17, 3700, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:57]
+2024-09-26 00:19:06,666 INFO: Feature names: ['Bedroom', 'Bathroom', 'Floors', 'Year', 'Road Width', 'Area_in_sqft', 'Backyard', 'Balcony', 'Fencing', 'Frontyard', 'Parking', 'Jacuzzi', 'Kids Playground', 'Lawn', 'Modular Kitchen', 'Store Room', 'Swimming Pool', 'City_Bhaktapur', 'City_Kathmandu', 'City_Lalitpur', 'Face_East', 'Face_North', 'Face_North East', 'Face_North West', 'Face_South', 'Face_South East', 'Face_South West', 'Face_West', 'Parking_0', 'Parking_1', 'Road Type_ Alley', 'Road Type_ Blacktopped', 'Road Type_ Concrete', 'Road Type_ Gravelled', 'Road Type_ Paved', 'Road Type_ Soil Stabilized', 'Road Type_Unknown'] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:58]
+2024-09-26 00:19:06,666 INFO: Features to scale: [4, 4, 4, 2075, 17, 3700] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:69]
+2024-09-26 00:19:06,670 INFO: Scaled features: [[4.21052632e-02 1.00000000e-01 4.00000000e-01 9.74025974e-01
+  3.45528455e-02 2.27026106e-05]] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:73]
+2024-09-26 00:19:06,671 INFO: Final features for prediction: [[4.21052632e-02 1.00000000e-01 4.00000000e-01 9.74025974e-01
+  3.45528455e-02 2.27026106e-05 1.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  1.00000000e+00 0.00000000e+00 1.00000000e+00 0.00000000e+00
+  1.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00]] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:81]
+2024-09-26 00:19:06,683 INFO: Prediction: 31806214.000000 [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:86]
+2024-09-26 00:20:00,424 INFO: Received features: [4, 4, 4, 2075, 17, 3700, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:57]
+2024-09-26 00:20:00,424 INFO: Feature names: ['Bedroom', 'Bathroom', 'Floors', 'Year', 'Road Width', 'Area_in_sqft', 'Backyard', 'Balcony', 'Fencing', 'Frontyard', 'Parking', 'Jacuzzi', 'Kids Playground', 'Lawn', 'Modular Kitchen', 'Store Room', 'Swimming Pool', 'City_Bhaktapur', 'City_Kathmandu', 'City_Lalitpur', 'Face_East', 'Face_North', 'Face_North East', 'Face_North West', 'Face_South', 'Face_South East', 'Face_South West', 'Face_West', 'Parking_0', 'Parking_1', 'Road Type_ Alley', 'Road Type_ Blacktopped', 'Road Type_ Concrete', 'Road Type_ Gravelled', 'Road Type_ Paved', 'Road Type_ Soil Stabilized', 'Road Type_Unknown'] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:58]
+2024-09-26 00:20:00,426 INFO: Features to scale: [4, 4, 4, 2075, 17, 3700] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:69]
+2024-09-26 00:20:00,426 INFO: Scaled features: [[4.21052632e-02 1.00000000e-01 4.00000000e-01 9.74025974e-01
+  3.45528455e-02 2.27026106e-05]] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:73]
+2024-09-26 00:20:00,427 INFO: Final features for prediction: [[4.21052632e-02 1.00000000e-01 4.00000000e-01 9.74025974e-01
+  3.45528455e-02 2.27026106e-05 1.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  1.00000000e+00 0.00000000e+00 1.00000000e+00 0.00000000e+00
+  1.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00]] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:81]
+2024-09-26 00:20:00,430 INFO: Prediction: 31806214.000000 [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:86]
+2024-09-26 00:20:08,927 INFO: Received features: [4, 4, 4, 2075, 17, 3700, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:57]
+2024-09-26 00:20:08,927 INFO: Feature names: ['Bedroom', 'Bathroom', 'Floors', 'Year', 'Road Width', 'Area_in_sqft', 'Backyard', 'Balcony', 'Fencing', 'Frontyard', 'Parking', 'Jacuzzi', 'Kids Playground', 'Lawn', 'Modular Kitchen', 'Store Room', 'Swimming Pool', 'City_Bhaktapur', 'City_Kathmandu', 'City_Lalitpur', 'Face_East', 'Face_North', 'Face_North East', 'Face_North West', 'Face_South', 'Face_South East', 'Face_South West', 'Face_West', 'Parking_0', 'Parking_1', 'Road Type_ Alley', 'Road Type_ Blacktopped', 'Road Type_ Concrete', 'Road Type_ Gravelled', 'Road Type_ Paved', 'Road Type_ Soil Stabilized', 'Road Type_Unknown'] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:58]
+2024-09-26 00:20:08,928 INFO: Features to scale: [4, 4, 4, 2075, 17, 3700] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:69]
+2024-09-26 00:20:08,929 INFO: Scaled features: [[4.21052632e-02 1.00000000e-01 4.00000000e-01 9.74025974e-01
+  3.45528455e-02 2.27026106e-05]] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:73]
+2024-09-26 00:20:08,929 INFO: Final features for prediction: [[4.21052632e-02 1.00000000e-01 4.00000000e-01 9.74025974e-01
+  3.45528455e-02 2.27026106e-05 1.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  1.00000000e+00 0.00000000e+00 1.00000000e+00 0.00000000e+00
+  1.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00]] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:81]
+2024-09-26 00:20:08,934 INFO: Prediction: 31806214.000000 [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:86]
+2024-09-26 00:20:13,957 INFO: Received features: [4, 4, 4, 2075, 17, 3700, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:57]
+2024-09-26 00:20:13,957 INFO: Feature names: ['Bedroom', 'Bathroom', 'Floors', 'Year', 'Road Width', 'Area_in_sqft', 'Backyard', 'Balcony', 'Fencing', 'Frontyard', 'Parking', 'Jacuzzi', 'Kids Playground', 'Lawn', 'Modular Kitchen', 'Store Room', 'Swimming Pool', 'City_Bhaktapur', 'City_Kathmandu', 'City_Lalitpur', 'Face_East', 'Face_North', 'Face_North East', 'Face_North West', 'Face_South', 'Face_South East', 'Face_South West', 'Face_West', 'Parking_0', 'Parking_1', 'Road Type_ Alley', 'Road Type_ Blacktopped', 'Road Type_ Concrete', 'Road Type_ Gravelled', 'Road Type_ Paved', 'Road Type_ Soil Stabilized', 'Road Type_Unknown'] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:58]
+2024-09-26 00:20:13,958 INFO: Features to scale: [4, 4, 4, 2075, 17, 3700] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:69]
+2024-09-26 00:20:13,959 INFO: Scaled features: [[4.21052632e-02 1.00000000e-01 4.00000000e-01 9.74025974e-01
+  3.45528455e-02 2.27026106e-05]] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:73]
+2024-09-26 00:20:13,960 INFO: Final features for prediction: [[4.21052632e-02 1.00000000e-01 4.00000000e-01 9.74025974e-01
+  3.45528455e-02 2.27026106e-05 1.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  1.00000000e+00 0.00000000e+00 1.00000000e+00 0.00000000e+00
+  1.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00
+  0.00000000e+00]] [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:81]
+2024-09-26 00:20:13,963 INFO: Prediction: 31806214.000000 [in C:\Users\anupa\OneDrive\Desktop\newproj\backend\app.py:86]

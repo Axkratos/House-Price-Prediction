@@ -1,0 +1,10 @@
+Flask
+Flask-Cors
+Flask-Mail
+joblib
+numpy
+xgboost
+scikit-learn
+pandas
+matplotlib 
+seaborn
